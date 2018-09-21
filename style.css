@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  max-width: 1280px;
+}
+
+  .main .product-name {
+    display: flex;
+    background-color: #445162;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+    .main .product-name .product-name-left {
+
+    }
+
+      .main .product-name .product-name-left span {
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: 400;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+      }
+
+      .main .product-name .product-name-left ul {
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+      }
