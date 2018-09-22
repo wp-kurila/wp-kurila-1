@@ -37,9 +37,71 @@ body {
         line-height: 36px;
         text-align: left;
         text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-        list-style-image: url(img\check-icon.png);
+        list-style-image: url(img/check-icon.png);
       }
 
         .main .product-name .product-name-left ul li {
+          list-style-type: none;
+        }
+
+  .about-your-product {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 50px;
+  }
+
+    .about-your-product .about-your-product-left {
+      max-width: 653px;
+    }
+
+      .about-your-product .about-your-product-left span {
+        font-family: Arial;
+        font-size: 30px;
+        color: #445161;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+      }
+
+      .about-your-product .about-your-product-left p {
+        font-family: Arial;
+        font-size: 16px;
+        color: #333333;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+      }
+
+  .dignity {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+
+    .dignity span {
+      font-family: Arial;
+      color: #445161;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 36px;
+      display: block;
+      text-align: center;
+    }
+
+    .dignity .dignity-left {
+      max-width: 526px;
+      float: left;
+    }
+
+      .dignity .dignity-left ul {
+        font-family: Arial;
+        color: #333;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+        .dignity .dignity-left ul li {
+          padding-bottom: 35px;
           list-style-type: none;
         }
